@@ -1,0 +1,7 @@
+open3d==0.18.0
+smplx
+tensorboardX
+loguru
+omegaconf
+yacs
+numpy==1.22.4
