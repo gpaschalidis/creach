@@ -113,18 +113,6 @@ To try CReach you need as inputs an arm direction and a wrist location.
     .
     .
 ```
-To obtain plausible reaching directions for each configuration of replicagrasp we use the ReachingField model,
-which you can install it using:
-
-```bash
- python process_grab_circle_data.py --grab_path datasets/GRAB/grab/ --circle_path datasets/CIRCLE_movement --save_path datasets/creach_dataset --smplx_path smplx_models/
-```
-The file "dset_info.npz" contains many configurations which you can use to test CReach, by using the following command:
-
-```bash
- python process_grab_circle_data.py --grab_path datasets/GRAB/grab/ --circle_path datasets/CIRCLE_movement --save_path datasets/creach_dataset --smplx_path smplx_models/
-```
-
 
 ## Citation
 If you found this work influential or helpful for your research, please cite:
