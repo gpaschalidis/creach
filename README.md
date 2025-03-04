@@ -26,9 +26,6 @@ Run the following commands:
 conda create -n creach python=3.9 -y
 conda activate creach
 conda install pytorch=2.0.1 torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
-pip install git+https://github.com/otaheri/chamfer_distance.git
-pip install git+https://github.com/otaheri/bps_torch.git
 ```
 ```bash
 pip install -r requirements.txt
