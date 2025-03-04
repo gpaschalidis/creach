@@ -1,4 +1,4 @@
-# CGrasp
+# CReach
 This repository is the official implementation of the CReach model from 
 our __3DV 2025__ paper:
 
